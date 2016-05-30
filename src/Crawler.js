@@ -1,5 +1,5 @@
-const Nightmare = require('nightmare');
-const nightmare = new Nightmare({ show: true });
+const Nightmare = require('nightmare')
+const nightmare = new Nightmare({ show: true })
 
 /**
  * Return a list of stock symbols gathered from yahoo
@@ -25,4 +25,4 @@ function crawl() {
 
 }
 
-module.exports = { crawl, filterUnique, getStockSymbols };
+module.exports = { crawl, filterUnique, getStockSymbols }
