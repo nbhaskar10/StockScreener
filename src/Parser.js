@@ -17,8 +17,8 @@
  * @param  {array} csvFilePaths
  * @return {array}
  */
-Parse(csvFilePaths) {
+function Parser(csvFilePaths) {
 
 }
 
-module.exports = Parse;
+module.exports = Parser;

@@ -1,6 +1,11 @@
 const Nightmare = require('nightmare')
 const nightmare = new Nightmare({ show: true })
 
+
+function Crawler() {
+
+}
+
 /**
  * Return a list of stock symbols gathered from yahoo
  *

@@ -6,3 +6,5 @@
 function RiskCalculator() {
 
 }
+
+module.exports = RiskCalculator

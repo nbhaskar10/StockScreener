@@ -9,3 +9,5 @@
 function FavorabilityCalculator(interestedSectors, interestedSectors, riskPercentage) {
 
 }
+
+module.exports = FavorabilityCalculator

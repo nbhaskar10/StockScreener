@@ -3,6 +3,7 @@ const Crawler      = require('./src/Crawler')
 const Favorability = require('./src/FavorabilityCalculator')
 const Risk         = require('./src/RiskCalculator')
 
+
 // Predefined list of possible sectors
 const sectors = []
 
