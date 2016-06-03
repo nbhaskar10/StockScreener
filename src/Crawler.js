@@ -7,24 +7,28 @@ function Crawler() {
 }
 
 /**
- * Return a list of stock symbols gathered from yahoo
+ * Initiate crawling of yahoo
  *
  * @param  {number} limit
  * @return {array}
  */
 function getStockSymbols() {
-
+    nightmare.goto('')
 }
 
 /**
  * Filter stocks from the
+ *
+ * @param {array} stocksToFilter | The array of stocks that should be filtered
+ *                               | from the returned response
  */
-function filterUnique() {
+function filterUnique(stocksToFilter) {
 
 }
 
 /**
- * Initiate crawling of yahoo
+ * Return a list of stock symbols gathered from yahoo
+ *
  */
 function crawl() {
 
