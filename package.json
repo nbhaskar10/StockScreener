@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/amilajack/StockScreener#readme",
   "dependencies": {
+    "csv-to-array": "^1.0.2",
+    "csvtojson": "^0.5.14",
     "nightmare": "^2.5.0"
   },
   "engines": {
